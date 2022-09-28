@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Courses</title>
+</head>
+<body>
+
+<form action="/task2/formregister.html">
+    <input type="button" value="Вход"
+           style="color: dodgerblue; background-color: white; border-color: darkgrey; font-size: 20px; padding: 8px 40px "/>
+    <input type="submit" value="Зарегистрироваться"
+           style="color: royalblue; background-color: lightgrey; border-color: darkgrey; font-size: 20px; padding: 8px 60px"/>
+</form>
+
+
+<form action="formresult2" method="POST">
+
+    <div><h2>Вход в систему</h2></div>
+
+
+    Адрес электронной почты:<br><input type="email" name="email1" style="padding: 6px 130px">
+    <br></br>
+
+    Пароль:<br><input type="password" name="password1" minlength="6" style="padding: 6px 130px">
+    <br></br>
+
+    <input type="hidden" name="type" value="login">
+
+    <input type="submit" value="Войти"
+           style="padding: 10px 70px; background-color: deepskyblue; color: white; font-size: 20px"/>
+</form>
+</body>
+</html>
