@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Courses</title>
+</head>
+<body>
+<form action="formresult" method="POST">
+    <div><h2>Запись на курсы</h2></div>
+
+
+    Имя:<br><input name="name" minlength="1">
+    <br></br>
+
+
+    <label for="course">Язык программирования:</label><br>
+    <select name="courses" id="course">
+        <option value="C++">C++</option>
+        <option value="PHP">PHP</option>
+        <option value="Python">Python</option>
+    </select>
+    <br></br>
+
+
+    Дополнительная информация:<br><textarea name="info" rows="5" cols="50"></textarea>
+    <br></br>
+
+
+    Секретное слово:<br><input type="password" name="password1" minlength="6">
+    <br></br>
+
+    <input type="submit" value="Отправить"/>
+    <input type="reset" value="Очистить"/>
+</form>
+</body>
+</html>
